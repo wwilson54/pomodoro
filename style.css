@@ -1,0 +1,28 @@
+html {
+    
+}
+body {
+    max-width: 300px;
+    margin-left: 33%;
+    margin-top: 5%;
+    text-align: center;
+    background-image: linear-gradient(gray,white);
+    background-repeat: no-repeat;
+}
+#container {
+    margin-bottom: 66%;
+}
+#settings div {
+    display: inline-block;
+    margin: 5%;
+}
+#display {
+    font-size: 4em;
+    border-style: solid;
+    border-radius: 4em;
+    margin: 5%;
+    background-color: rgb(230, 216, 216);
+}
+#status {
+    font-size: 2em;
+}
