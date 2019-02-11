@@ -64,21 +64,33 @@ function refreshDisplay() {
 
 function incWork () {
     workTime ++;
+    if (workTime > 60) {
+        workTime = 60;
+    }
     setTime(workTime,breakTime)
 }
 
 function decWork () {
     workTime--;
+    if (workTime < 1) {
+        workTime = 1;
+    }
     setTime(workTime,breakTime)
 }
 
 function incBreak () {
     breakTime++;
+    if (breakTime > 60) {
+        breakTime = 60;
+    }
     setTime(workTime,breakTime)
 }
 
 function decBreak () {
     breakTime--;
+    if (breakTime < 1) {
+        breakTime = 1;
+    }
     setTime(workTime,breakTime)
 }
 
